@@ -1,0 +1,16 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+# gem "rails"
+
+# Added at 2017-11-15 10:42:44 -0600 by jberlage:
+gem "sinatra", "~> 2.0"
+
+# Added at 2017-11-15 10:43:35 -0600 by jberlage:
+gem "rspec", "~> 3.7", :group => [:test]
+
+# Added at 2017-11-15 11:49:04 -0600 by jberlage:
+gem "rack", "~> 2.0"

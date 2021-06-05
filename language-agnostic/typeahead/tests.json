@@ -1,0 +1,40 @@
+{
+    "tests": [
+        {
+            "input": "an",
+            "output": [
+                "Anaheim, California",
+                "Anchorage, Alaska",
+                "Ann Arbor, Michigan",
+                "Antioch, California"
+            ]
+        },
+        {
+            "input": "west",
+            "output": [
+                "West Covina, California",
+                "West Jordan, Utah",
+                "West Palm Beach, Florida",
+                "West Valley City, Utah",
+                "Westminster, Colorado"
+            ]
+        },
+        {
+            "input": "springfield, m",
+            "output": [
+                "Springfield, Massachusetts",
+                "Springfield, Missouri"
+            ]
+        },
+        {
+            "input": "s",
+            "output": [
+                "Sacramento, California",
+                "Saint Paul, Minnesota",
+                "Salem, Oregon",
+                "Salinas, California",
+                "Salt Lake City, Utah"
+            ]
+        }
+    ]
+}
